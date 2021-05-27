@@ -1,46 +1,3 @@
-$('.center').slick({
-  centerMode: true,
-  centerPadding: '0px',
-  slidesToShow: 4,
-  responsive: [
-    {
-      breakpoint: 1140,
-      settings: {
-        arrows: true,
-        centerMode: true,
-        // centerPadding: '40px',
-        slidesToShow: 3,
-      },
-    },
-    {
-      breakpoint: 1024,
-      settings: {
-        arrows: true,
-        centerMode: true,
-        // centerPadding: '40px',
-        slidesToShow: 2,
-      },
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: true,
-        centerMode: true,
-        // centerPadding: '40px',
-        slidesToShow: 2,
-      },
-    },
-    {
-      breakpoint: 575,
-      settings: {
-        arrows: true,
-        centerMode: true,
-        // centerPadding: '0px',
-        slidesToShow: 1,
-      },
-    },
-  ],
-});
 
 $('.responsive').slick({
   dots: true,
@@ -72,9 +29,6 @@ $('.responsive').slick({
         slidesToScroll: 1,
       },
     },
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
   ],
 });
 
