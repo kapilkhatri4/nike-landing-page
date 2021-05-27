@@ -430,7 +430,7 @@ main .img-info .add-cart:active {
   position: relative;
 }
 .slider .slide img {
-  width: 100%;
+  width: 90%;
   position: absolute;
   filter: drop-shadow(5px 5px 10px #0000007a);
   left: 33%;
@@ -452,6 +452,11 @@ main .img-info .add-cart:active {
 }
 .slider .slide .slide-info .price {
   font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .slider {
+    padding-top: 50px !important;
+  }
 }
 
 .copyright {
